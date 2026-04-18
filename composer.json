@@ -1,0 +1,22 @@
+{
+    "name": "kasper-bl/demo-collect",
+    "description": "qeweqwweq",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kasper-bl",
+            "email": "momopoki75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {"php": "^7.4 | ^8.0"},
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
